@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simPackage>
+ <file
+   path="qsystem/simulation/submodules/altera_merlin_arbitrator.sv"
+   type="SYSTEM_VERILOG"
+   library="rsp_xbar_mux_001" />
+ <file
+   path="qsystem/simulation/submodules/qsystem_mm_interconnect_0_rsp_xbar_mux_001.sv"
+   type="SYSTEM_VERILOG"
+   library="rsp_xbar_mux_001" />
+ <file
+   path="qsystem/simulation/submodules/altera_merlin_arbitrator.sv"
+   type="SYSTEM_VERILOG"
+   library="rsp_xbar_mux" />
+ <file
+   path="qsystem/simulation/submodules/qsystem_mm_interconnect_0_rsp_xbar_mux.sv"
+   type="SYSTEM_VERILOG"
+   library="rsp_xbar_mux" />
+ <file
+   path="qsystem/simulation/submodules/qsystem_mm_interconnect_0_rsp_xbar_demux_002.sv"
+   type="SYSTEM_VERILOG"
+   library="rsp_xbar_demux_002" />
+ <file
+   path="qsystem/simulation/submodules/altera_merlin_arbitrator.sv"
+   type="SYSTEM_VERILOG"
+   library="cmd_xbar_mux_002" />
+ <file
+   path="qsystem/simulation/submodules/qsystem_mm_interconnect_0_cmd_xbar_mux_002.sv"
+   type="SYSTEM_VERILOG"
+   library="cmd_xbar_mux_002" />
+ <file
+   path="qsystem/simulation/submodules/altera_merlin_arbitrator.sv"
+   type="SYSTEM_VERILOG"
+   library="cmd_xbar_mux" />
+ <file
+   path="qsystem/simulation/submodules/qsystem_mm_interconnect_0_cmd_xbar_mux.sv"
+   type="SYSTEM_VERILOG"
+   library="cmd_xbar_mux" />
+ <file
+   path="qsystem/simulation/submodules/qsystem_mm_interconnect_0_cmd_xbar_demux_001.sv"
+   type="SYSTEM_VERILOG"
+   library="cmd_xbar_demux_001" />
+ <file
+   path="qsystem/simulation/submodules/qsystem_mm_interconnect_0_cmd_xbar_demux.sv"
+   type="SYSTEM_VERILOG"
+   library="cmd_xbar_demux" />
+ <file
+   path="qsystem/simulation/submodules/qsystem_mm_interconnect_0_id_router_002.sv"
+   type="SYSTEM_VERILOG"
+   library="id_router_002" />
+ <file
+   path="qsystem/simulation/submodules/qsystem_mm_interconnect_0_id_router.sv"
+   type="SYSTEM_VERILOG"
+   library="id_router" />
+ <file
+   path="qsystem/simulation/submodules/qsystem_mm_interconnect_0_addr_router_001.sv"
+   type="SYSTEM_VERILOG"
+   library="addr_router_001" />
+ <file
+   path="qsystem/simulation/submodules/qsystem_mm_interconnect_0_addr_router.sv"
+   type="SYSTEM_VERILOG"
+   library="addr_router" />
+ <file
+   path="qsystem/simulation/submodules/altera_avalon_sc_fifo.v"
+   type="VERILOG"
+   library="nios2_qsys_0_jtag_debug_module_translator_avalon_universal_slave_0_agent_rsp_fifo" />
+ <file
+   path="qsystem/simulation/submodules/altera_merlin_slave_agent.sv"
+   type="SYSTEM_VERILOG"
+   library="nios2_qsys_0_jtag_debug_module_translator_avalon_universal_slave_0_agent" />
+ <file
+   path="qsystem/simulation/submodules/altera_merlin_burst_uncompressor.sv"
+   type="SYSTEM_VERILOG"
+   library="nios2_qsys_0_jtag_debug_module_translator_avalon_universal_slave_0_agent" />
+ <file
+   path="qsystem/simulation/submodules/altera_merlin_master_agent.sv"
+   type="SYSTEM_VERILOG"
+   library="nios2_qsys_0_instruction_master_translator_avalon_universal_master_0_agent" />
+ <file
+   path="qsystem/simulation/submodules/altera_merlin_slave_translator.sv"
+   type="SYSTEM_VERILOG"
+   library="nios2_qsys_0_jtag_debug_module_translator" />
+ <file
+   path="qsystem/simulation/submodules/altera_merlin_master_translator.sv"
+   type="SYSTEM_VERILOG"
+   library="nios2_qsys_0_instruction_master_translator" />
+ <file
+   path="qsystem/simulation/submodules/altera_reset_controller.v"
+   type="VERILOG"
+   library="rst_controller" />
+ <file
+   path="qsystem/simulation/submodules/altera_reset_synchronizer.v"
+   type="VERILOG"
+   library="rst_controller" />
+ <file
+   path="qsystem/simulation/submodules/altera_reset_controller.sdc"
+   type="SDC"
+   library="rst_controller" />
+ <file
+   path="qsystem/simulation/submodules/qsystem_irq_mapper.sv"
+   type="SYSTEM_VERILOG"
+   library="irq_mapper" />
+ <file
+   path="qsystem/simulation/submodules/qsystem_mm_interconnect_0.v"
+   type="VERILOG"
+   library="mm_interconnect_0" />
+ <file
+   path="qsystem/simulation/submodules/qsystem_sysid_qsys_0.vo"
+   type="VERILOG"
+   library="sysid_qsys_0" />
+ <file
+   path="qsystem/simulation/submodules/qsystem_jtag_uart_0.v"
+   type="VERILOG"
+   library="jtag_uart_0" />
+ <file
+   path="qsystem/simulation/submodules/qsystem_onchip_memory2_0.v"
+   type="VERILOG"
+   library="onchip_memory2_0" />
+ <file
+   path="qsystem/simulation/submodules/qsystem_onchip_memory2_0.hex"
+   type="HEX"
+   library="onchip_memory2_0" />
+ <file
+   path="qsystem/simulation/submodules/qsystem_nios2_qsys_0_rf_ram_a.dat"
+   type="DAT"
+   library="nios2_qsys_0" />
+ <file
+   path="qsystem/simulation/submodules/qsystem_nios2_qsys_0_jtag_debug_module_wrapper.v"
+   type="VERILOG"
+   library="nios2_qsys_0" />
+ <file
+   path="qsystem/simulation/submodules/qsystem_nios2_qsys_0_rf_ram_b.hex"
+   type="HEX"
+   library="nios2_qsys_0" />
+ <file
+   path="qsystem/simulation/submodules/qsystem_nios2_qsys_0_oci_test_bench.v"
+   type="VERILOG"
+   library="nios2_qsys_0" />
+ <file
+   path="qsystem/simulation/submodules/qsystem_nios2_qsys_0_nios2_waves.do"
+   type="OTHER"
+   library="nios2_qsys_0" />
+ <file
+   path="qsystem/simulation/submodules/qsystem_nios2_qsys_0_ociram_default_contents.mif"
+   type="MIF"
+   library="nios2_qsys_0" />
+ <file
+   path="qsystem/simulation/submodules/qsystem_nios2_qsys_0.sdc"
+   type="SDC"
+   library="nios2_qsys_0" />
+ <file
+   path="qsystem/simulation/submodules/qsystem_nios2_qsys_0_ociram_default_contents.dat"
+   type="DAT"
+   library="nios2_qsys_0" />
+ <file
+   path="qsystem/simulation/submodules/qsystem_nios2_qsys_0_jtag_debug_module_sysclk.v"
+   type="VERILOG"
+   library="nios2_qsys_0" />
+ <file
+   path="qsystem/simulation/submodules/qsystem_nios2_qsys_0.v"
+   type="VERILOG"
+   library="nios2_qsys_0" />
+ <file
+   path="qsystem/simulation/submodules/qsystem_nios2_qsys_0_rf_ram_b.dat"
+   type="DAT"
+   library="nios2_qsys_0" />
+ <file
+   path="qsystem/simulation/submodules/qsystem_nios2_qsys_0_rf_ram_b.mif"
+   type="MIF"
+   library="nios2_qsys_0" />
+ <file
+   path="qsystem/simulation/submodules/qsystem_nios2_qsys_0_ociram_default_contents.hex"
+   type="HEX"
+   library="nios2_qsys_0" />
+ <file
+   path="qsystem/simulation/submodules/qsystem_nios2_qsys_0_rf_ram_a.mif"
+   type="MIF"
+   library="nios2_qsys_0" />
+ <file
+   path="qsystem/simulation/submodules/qsystem_nios2_qsys_0_jtag_debug_module_tck.v"
+   type="VERILOG"
+   library="nios2_qsys_0" />
+ <file
+   path="qsystem/simulation/submodules/qsystem_nios2_qsys_0_rf_ram_a.hex"
+   type="HEX"
+   library="nios2_qsys_0" />
+ <file
+   path="qsystem/simulation/submodules/qsystem_nios2_qsys_0_test_bench.v"
+   type="VERILOG"
+   library="nios2_qsys_0" />
+ <file path="qsystem/simulation/qsystem.v" type="VERILOG" />
+ <topLevel name="qsystem" />
+ <deviceFamily name="cycloneiii" />
+ <modelMap
+   controllerPath="qsystem.onchip_memory2_0"
+   modelPath="qsystem.onchip_memory2_0" />
+</simPackage>

@@ -1,0 +1,62 @@
+#ignore output folder
+gcc
+
+*~
+
+*.cmp
+*.sopcinfo
+*.rpt
+*.dpf
+*.qws
+
+PLLJ_PLLSPE_INFO.txt
+summary.html
+*.force_rebuild*
+*.force_relink
+*.settings
+*_db_list.ddb
+
+db/
+incremental_db/
+output_files/
+simulation/
+
+qsystem/
+.qsys_edit/
+
+ServoDrive_bsp/
+
+*.d
+
+*.objdump
+*.map
+
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+#*.hex

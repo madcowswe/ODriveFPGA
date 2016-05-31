@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simPackage>
+ <file
+   path="qsystem/testbench/qsystem_tb/simulation/submodules/verbosity_pkg.sv"
+   type="SYSTEM_VERILOG"
+   library="altera_common_sv_packages"
+   systemVerilogPackageName="avalon_vip_verbosity_pkg" />
+ <file
+   path="qsystem/testbench/qsystem_tb/simulation/submodules/qsystem_avalon_st_adapter_001_timing_adapter_0.sv"
+   type="SYSTEM_VERILOG"
+   library="timing_adapter_0" />
+ <file
+   path="qsystem/testbench/qsystem_tb/simulation/submodules/qsystem_avalon_st_adapter_timing_adapter_0.sv"
+   type="SYSTEM_VERILOG"
+   library="timing_adapter_0" />
+ <file
+   path="qsystem/testbench/qsystem_tb/simulation/submodules/altera_merlin_arbitrator.sv"
+   type="SYSTEM_VERILOG"
+   library="rsp_mux_001" />
+ <file
+   path="qsystem/testbench/qsystem_tb/simulation/submodules/qsystem_mm_interconnect_0_rsp_mux_001.sv"
+   type="SYSTEM_VERILOG"
+   library="rsp_mux_001" />
+ <file
+   path="qsystem/testbench/qsystem_tb/simulation/submodules/altera_merlin_arbitrator.sv"
+   type="SYSTEM_VERILOG"
+   library="rsp_mux" />
+ <file
+   path="qsystem/testbench/qsystem_tb/simulation/submodules/qsystem_mm_interconnect_0_rsp_mux.sv"
+   type="SYSTEM_VERILOG"
+   library="rsp_mux" />
+ <file
+   path="qsystem/testbench/qsystem_tb/simulation/submodules/qsystem_mm_interconnect_0_rsp_demux.sv"
+   type="SYSTEM_VERILOG"
+   library="rsp_demux" />
+ <file
+   path="qsystem/testbench/qsystem_tb/simulation/submodules/altera_merlin_arbitrator.sv"
+   type="SYSTEM_VERILOG"
+   library="cmd_mux_005" />
+ <file
+   path="qsystem/testbench/qsystem_tb/simulation/submodules/qsystem_mm_interconnect_0_cmd_mux_005.sv"
+   type="SYSTEM_VERILOG"
+   library="cmd_mux_005" />
+ <file
+   path="qsystem/testbench/qsystem_tb/simulation/submodules/altera_merlin_arbitrator.sv"
+   type="SYSTEM_VERILOG"
+   library="cmd_mux" />
+ <file
+   path="qsystem/testbench/qsystem_tb/simulation/submodules/qsystem_mm_interconnect_0_cmd_mux.sv"
+   type="SYSTEM_VERILOG"
+   library="cmd_mux" />
+ <file
+   path="qsystem/testbench/qsystem_tb/simulation/submodules/qsystem_mm_interconnect_0_cmd_demux_001.sv"
+   type="SYSTEM_VERILOG"
+   library="cmd_demux_001" />
+ <file
+   path="qsystem/testbench/qsystem_tb/simulation/submodules/qsystem_mm_interconnect_0_cmd_demux.sv"
+   type="SYSTEM_VERILOG"
+   library="cmd_demux" />
+ <file
+   path="qsystem/testbench/qsystem_tb/simulation/submodules/qsystem_mm_interconnect_0_router_007.sv"
+   type="SYSTEM_VERILOG"
+   library="router_007" />
+ <file
+   path="qsystem/testbench/qsystem_tb/simulation/submodules/qsystem_mm_interconnect_0_router_002.sv"
+   type="SYSTEM_VERILOG"
+   library="router_002" />
+ <file
+   path="qsystem/testbench/qsystem_tb/simulation/submodules/qsystem_mm_interconnect_0_router_001.sv"
+   type="SYSTEM_VERILOG"
+   library="router_001" />
+ <file
+   path="qsystem/testbench/qsystem_tb/simulation/submodules/qsystem_mm_interconnect_0_router.sv"
+   type="SYSTEM_VERILOG"
+   library="router" />
+ <file
+   path="qsystem/testbench/qsystem_tb/simulation/submodules/altera_merlin_slave_agent.sv"
+   type="SYSTEM_VERILOG"
+   library="jtag_uart_0_avalon_jtag_slave_agent" />
+ <file
+   path="qsystem/testbench/qsystem_tb/simulation/submodules/altera_merlin_burst_uncompressor.sv"
+   type="SYSTEM_VERILOG"
+   library="jtag_uart_0_avalon_jtag_slave_agent" />
+ <file
+   path="qsystem/testbench/qsystem_tb/simulation/submodules/altera_merlin_master_agent.sv"
+   type="SYSTEM_VERILOG"
+   library="nios2_qsys_0_data_master_agent" />
+ <file
+   path="qsystem/testbench/qsystem_tb/simulation/submodules/altera_merlin_slave_translator.sv"
+   type="SYSTEM_VERILOG"
+   library="jtag_uart_0_avalon_jtag_slave_translator" />
+ <file
+   path="qsystem/testbench/qsystem_tb/simulation/submodules/altera_merlin_master_translator.sv"
+   type="SYSTEM_VERILOG"
+   library="nios2_qsys_0_data_master_translator" />
+ <file
+   path="qsystem/testbench/qsystem_tb/simulation/submodules/qsystem_nios2_qsys_0_cpu.sdc"
+   type="SDC"
+   library="cpu" />
+ <file
+   path="qsystem/testbench/qsystem_tb/simulation/submodules/qsystem_nios2_qsys_0_cpu.v"
+   type="VERILOG"
+   library="cpu" />
+ <file
+   path="qsystem/testbench/qsystem_tb/simulation/submodules/qsystem_nios2_qsys_0_cpu_debug_slave_sysclk.v"
+   type="VERILOG"
+   library="cpu" />
+ <file
+   path="qsystem/testbench/qsystem_tb/simulation/submodules/qsystem_nios2_qsys_0_cpu_debug_slave_tck.v"
+   type="VERILOG"
+   library="cpu" />
+ <file
+   path="qsystem/testbench/qsystem_tb/simulation/submodules/qsystem_nios2_qsys_0_cpu_debug_slave_wrapper.v"
+   type="VERILOG"
+   library="cpu" />
+ <file
+   path="qsystem/testbench/qsystem_tb/simulation/submodules/qsystem_nios2_qsys_0_cpu_nios2_waves.do"
+   type="OTHER"
+   library="cpu" />
+ <file
+   path="qsystem/testbench/qsystem_tb/simulation/submodules/qsystem_nios2_qsys_0_cpu_ociram_default_contents.dat"
+   type="DAT"
+   library="cpu" />
+ <file
+   path="qsystem/testbench/qsystem_tb/simulation/submodules/qsystem_nios2_qsys_0_cpu_ociram_default_contents.hex"
+   type="HEX"
+   library="cpu" />
+ <file
+   path="qsystem/testbench/qsystem_tb/simulation/submodules/qsystem_nios2_qsys_0_cpu_ociram_default_contents.mif"
+   type="MIF"
+   library="cpu" />
+ <file
+   path="qsystem/testbench/qsystem_tb/simulation/submodules/qsystem_nios2_qsys_0_cpu_oci_test_bench.v"
+   type="VERILOG"
+   library="cpu" />
+ <file
+   path="qsystem/testbench/qsystem_tb/simulation/submodules/qsystem_nios2_qsys_0_cpu_rf_ram_a.dat"
+   type="DAT"
+   library="cpu" />
+ <file
+   path="qsystem/testbench/qsystem_tb/simulation/submodules/qsystem_nios2_qsys_0_cpu_rf_ram_a.hex"
+   type="HEX"
+   library="cpu" />
+ <file
+   path="qsystem/testbench/qsystem_tb/simulation/submodules/qsystem_nios2_qsys_0_cpu_rf_ram_a.mif"
+   type="MIF"
+   library="cpu" />
+ <file
+   path="qsystem/testbench/qsystem_tb/simulation/submodules/qsystem_nios2_qsys_0_cpu_rf_ram_b.dat"
+   type="DAT"
+   library="cpu" />
+ <file
+   path="qsystem/testbench/qsystem_tb/simulation/submodules/qsystem_nios2_qsys_0_cpu_rf_ram_b.hex"
+   type="HEX"
+   library="cpu" />
+ <file
+   path="qsystem/testbench/qsystem_tb/simulation/submodules/qsystem_nios2_qsys_0_cpu_rf_ram_b.mif"
+   type="MIF"
+   library="cpu" />
+ <file
+   path="qsystem/testbench/qsystem_tb/simulation/submodules/qsystem_nios2_qsys_0_cpu_test_bench.v"
+   type="VERILOG"
+   library="cpu" />
+ <file
+   path="qsystem/testbench/qsystem_tb/simulation/submodules/altera_modular_adc_control.v"
+   type="VERILOG"
+   library="control_internal" />
+ <file
+   path="qsystem/testbench/qsystem_tb/simulation/submodules/altera_modular_adc_control_fsm.v"
+   type="VERILOG"
+   library="control_internal" />
+ <file
+   path="qsystem/testbench/qsystem_tb/simulation/submodules/chsel_code_converter_sw_to_hw.v"
+   type="VERILOG"
+   library="control_internal" />
+ <file
+   path="qsystem/testbench/qsystem_tb/simulation/submodules/fiftyfivenm_adcblock_primitive_wrapper.v"
+   type="VERILOG"
+   library="control_internal" />
+ <file
+   path="qsystem/testbench/qsystem_tb/simulation/submodules/fiftyfivenm_adcblock_top_wrapper.v"
+   type="VERILOG"
+   library="control_internal" />
+ <file
+   path="qsystem/testbench/qsystem_tb/simulation/submodules/altera_reset_controller.v"
+   type="VERILOG"
+   library="rst_controller" />
+ <file
+   path="qsystem/testbench/qsystem_tb/simulation/submodules/altera_reset_synchronizer.v"
+   type="VERILOG"
+   library="rst_controller" />
+ <file
+   path="qsystem/testbench/qsystem_tb/simulation/submodules/altera_reset_controller.sdc"
+   type="SDC"
+   library="rst_controller" />
+ <file
+   path="qsystem/testbench/qsystem_tb/simulation/submodules/qsystem_avalon_st_adapter_001.v"
+   type="VERILOG"
+   library="avalon_st_adapter_001" />
+ <file
+   path="qsystem/testbench/qsystem_tb/simulation/submodules/qsystem_avalon_st_adapter.v"
+   type="VERILOG"
+   library="avalon_st_adapter" />
+ <file
+   path="qsystem/testbench/qsystem_tb/simulation/submodules/qsystem_irq_mapper_001.sv"
+   type="SYSTEM_VERILOG"
+   library="irq_mapper_001" />
+ <file
+   path="qsystem/testbench/qsystem_tb/simulation/submodules/qsystem_irq_mapper.sv"
+   type="SYSTEM_VERILOG"
+   library="irq_mapper" />
+ <file
+   path="qsystem/testbench/qsystem_tb/simulation/submodules/qsystem_mm_interconnect_0.v"
+   type="VERILOG"
+   library="mm_interconnect_0" />
+ <file
+   path="qsystem/testbench/qsystem_tb/simulation/submodules/qsystem_sysid_qsys_0.vo"
+   type="VERILOG"
+   library="sysid_qsys_0" />
+ <file
+   path="qsystem/testbench/qsystem_tb/simulation/submodules/altera_avalon_sc_fifo.v"
+   type="VERILOG"
+   library="sc_fifo_0" />
+ <file
+   path="qsystem/testbench/qsystem_tb/simulation/submodules/qsystem_onchip_memory2_0.v"
+   type="VERILOG"
+   library="onchip_memory2_0" />
+ <file
+   path="qsystem/testbench/qsystem_tb/simulation/submodules/qsystem_nios2_qsys_0.v"
+   type="VERILOG"
+   library="nios2_qsys_0" />
+ <file
+   path="qsystem/testbench/qsystem_tb/simulation/submodules/qsystem_multiplexer_0.sv"
+   type="SYSTEM_VERILOG"
+   library="multiplexer_0" />
+ <file
+   path="qsystem/testbench/qsystem_tb/simulation/submodules/qsystem_modular_adc_0.v"
+   type="VERILOG"
+   library="modular_adc_0" />
+ <file
+   path="qsystem/testbench/qsystem_tb/simulation/submodules/qsystem_jtag_uart_0.v"
+   type="VERILOG"
+   library="jtag_uart_0" />
+ <file
+   path="qsystem/testbench/qsystem_tb/simulation/submodules/qsystem_demultiplexer_0.sv"
+   type="SYSTEM_VERILOG"
+   library="demultiplexer_0" />
+ <file
+   path="qsystem/testbench/qsystem_tb/simulation/submodules/qsystem_altpll_0.vo"
+   type="VERILOG"
+   library="altpll_0" />
+ <file
+   path="qsystem/testbench/qsystem_tb/simulation/submodules/Triggered_ADC_Sequencer.v"
+   type="VERILOG"
+   library="Triggered_ADC_Sequencer_0" />
+ <file
+   path="qsystem/testbench/qsystem_tb/simulation/submodules/ST_channel_prefixer.v"
+   type="VERILOG"
+   library="ST_channel_prefixer_0" />
+ <file
+   path="qsystem/testbench/qsystem_tb/simulation/submodules/ST_ch_data_demux_and_swap.v"
+   type="VERILOG"
+   library="ST_ch_data_demux_and_swap_0" />
+ <file
+   path="qsystem/testbench/qsystem_tb/simulation/submodules/QEI.v"
+   type="VERILOG"
+   library="QEI_0" />
+ <file
+   path="qsystem/testbench/qsystem_tb/simulation/submodules/PWM.v"
+   type="VERILOG"
+   library="PWM_0" />
+ <file
+   path="qsystem/testbench/qsystem_tb/simulation/submodules/altera_avalon_reset_source.sv"
+   type="SYSTEM_VERILOG"
+   library="qsystem_inst_reset_bfm" />
+ <file
+   path="qsystem/testbench/qsystem_tb/simulation/submodules/altera_avalon_clock_source.sv"
+   type="SYSTEM_VERILOG"
+   library="qsystem_inst_clk_bfm" />
+ <file
+   path="qsystem/testbench/qsystem_tb/simulation/submodules/altera_conduit_bfm_0004.sv"
+   type="SYSTEM_VERILOG"
+   library="qsystem_inst_altpll_0_locked_conduit_bfm" />
+ <file
+   path="qsystem/testbench/qsystem_tb/simulation/submodules/altera_conduit_bfm_0003.sv"
+   type="SYSTEM_VERILOG"
+   library="qsystem_inst_altpll_0_areset_conduit_bfm" />
+ <file
+   path="qsystem/testbench/qsystem_tb/simulation/submodules/altera_conduit_bfm_0002.sv"
+   type="SYSTEM_VERILOG"
+   library="qsystem_inst_QEI_0_EncoderIn_bfm" />
+ <file
+   path="qsystem/testbench/qsystem_tb/simulation/submodules/altera_conduit_bfm.sv"
+   type="SYSTEM_VERILOG"
+   library="qsystem_inst_PWM_0_PWMout_bfm" />
+ <file
+   path="qsystem/testbench/qsystem_tb/simulation/submodules/qsystem.v"
+   type="VERILOG"
+   library="qsystem_inst" />
+ <file
+   path="qsystem/testbench/qsystem_tb/simulation/qsystem_tb.v"
+   type="VERILOG" />
+ <topLevel name="qsystem_tb" />
+ <deviceFamily name="max10" />
+ <modelMap
+   controllerPath="qsystem_tb.qsystem_inst.onchip_memory2_0"
+   modelPath="qsystem_tb.qsystem_inst.onchip_memory2_0" />
+</simPackage>

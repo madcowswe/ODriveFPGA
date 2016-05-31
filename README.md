@@ -7,6 +7,6 @@ This repository contains the FPGA logic and software that runs on ODrive [v2](ht
 
 ## Main development
 Currently the main development of ODrive is focused on v3. The relevant repositories are:
-* [OdriveFirmware](https://github.com/madcowswe/OdriveFirmware): Firmware that runs on the board.
+* [ODriveFirmware](https://github.com/madcowswe/ODriveFirmware): Firmware that runs on the board.
 * [ODrive](https://github.com/madcowswe/ODrive): Configuration and analysis scripts that runs on a PC.
 * [ODriveHardware](https://github.com/madcowswe/ODriveHardware): Circuit board design
